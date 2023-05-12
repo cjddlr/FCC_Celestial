@@ -406,6 +406,7 @@ ALTER TABLE ONLY public.star ALTER COLUMN dust_id SET DEFAULT nextval('public.st
 INSERT INTO public.earth VALUES ('earth1', 1, true, true, NULL, NULL, NULL, NULL);
 INSERT INTO public.earth VALUES ('earth2', 2, true, true, NULL, NULL, NULL, NULL);
 INSERT INTO public.earth VALUES ('earth3', 3, true, true, NULL, NULL, NULL, NULL);
+INSERT INTO public.earth VALUES ('earth4', 4, true, true, NULL, NULL, NULL, NULL);
 
 
 --
@@ -518,7 +519,7 @@ INSERT INTO public.star VALUES ('star20', 40, false, false, NULL, NULL, NULL, NU
 -- Name: earth_earth_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.earth_earth_id_seq', 3, true);
+SELECT pg_catalog.setval('public.earth_earth_id_seq', 4, true);
 
 
 --
